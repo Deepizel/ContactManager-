@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import AddContact from './AddContact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <AddContact />
+      Hello world!
+      <div>
+        <button className="btn btn-primary mx-4 mt-5">hire me</button>{" "}
+      </div>
     </div>
   );
 }
