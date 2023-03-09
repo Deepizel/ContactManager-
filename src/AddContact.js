@@ -36,7 +36,7 @@ class AddContact extends React.Component{
                   />
                 </div>
               </div>
-              <button className="btn btn-primary px-5">Add</button>
+              <button className="btn btn-primary mx-4 px-5">Add</button>
             </form>
           </div>
         );
